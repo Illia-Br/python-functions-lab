@@ -24,3 +24,11 @@ def occurences(str_1, str_2):
   return counter
 
 # print(occurences('fleep floop', 'ee'))
+
+def product(*args):
+  mult = 1
+  for number in args:
+    mult = mult*number
+  return mult
+
+# print(product(-1, 4))
