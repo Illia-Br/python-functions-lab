@@ -4,4 +4,10 @@ def sum_to(n):
     sum += number
   return sum
 
-print(sum_to(10))
+# print(sum_to(10))
+
+def largest(li):
+  return max(li)
+
+# print(largest([1,289, 2, 3, 4, 0, 289, 278]))
+
